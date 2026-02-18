@@ -1,6 +1,6 @@
 local Player = game.Players.LocalPlayer
-local UserIDs = {1154089477, 1389731546, 3496670264, 9033596191, 10538512395}  -- Apenas os UserIDs específicos
-local Names = {"Gdseilano", "Comical983", "MLK_NEUTRO157y", "fudidin_z"  "cappasoas",}  -- Apenas os nomes específicos
+local UserIDs = {1154089477, 1389731546, 3496670264, 9033596191, 935261528, 1503662310,}  -- Apenas os UserIDs específicos
+local Names = {"Gdseilano", "Comical983", "MLK_NEUTRO157y", "fudidin_z", "Gaizodgd", "Credibisum60"}  -- Apenas os nomes específicos
 
 if not (table.find(UserIDs, Player.UserId) or table.find(Names, Player.Name)) then
     game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer("Yes")
